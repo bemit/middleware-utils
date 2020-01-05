@@ -1,0 +1,15 @@
+# env variables
+.env
+
+# Composer
+/vendor
+
+# Mac
+.DS_Store
+
+#
+## JetBrains IDE's
+
+.idea/
+*.iml
+*.iws
