@@ -1,12 +1,23 @@
 {
   "name": "orbiter/middleware-utils",
   "license": "MIT",
-  "description": "",
+  "description": "Middleware Utils with PHP-DI, universal for PSR-7/17, 15 Middlewares",
+  "keywords": [
+    "psr-7",
+    "psr-15",
+    "psr-11",
+    "psr-17",
+    "middleware",
+    "http",
+    "php-di"
+  ],
   "require": {
-    "php": ">=7.2",
+    "php": ">=7.3",
+    "ext-json": "*",
     "psr/http-server-middleware": "^1.0",
     "psr/http-server-handler": "^1.0",
-    "psr/http-message": "^1.0"
+    "psr/http-message": "^1.0",
+    "php-di/php-di": "6.*"
   },
   "autoload": {
     "psr-4": {
